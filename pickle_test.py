@@ -22,3 +22,5 @@ class PickleTests(unittest.TestCase):
                          # using tear down to delete our temp folder and its
                          # contents
         shutil.rmtree(self.path) #shutil.rmtree deletes a directory and all its contents
+        
+#What’s the point of setUp() and tearDown() methods in unit tests?

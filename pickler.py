@@ -11,3 +11,6 @@ def unpickler(path):
     my_list = pickle.load(f)
     f.close()
     return my_list
+    
+#is open() a built-in function that creates an instance?
+#how does f have method close()? 
